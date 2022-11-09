@@ -1,0 +1,13 @@
+# Questions
+project_name:
+    type: str
+    help: What is your AutoPkg CI project name?
+
+ci:
+    type: str
+    help: What Continuous Integration service do you want to use?
+    choices:
+        Azure Devops: azure
+        GitHub CI: github
+        GitLab CI: gitlab
+    default: azure
