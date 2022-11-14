@@ -4,6 +4,10 @@ project_name:
     help: What is your AutoPkg CI project name?
     default: autopkg-ci
 
+project_id:
+    type: str
+    help: What is the organizational identifier for your recipe repository?
+    default: com.github.autopkg-ci
 
 ci:
     type: str
