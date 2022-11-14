@@ -2,6 +2,8 @@
 project_name:
     type: str
     help: What is your AutoPkg CI project name?
+    default: autopkg-ci
+
 
 ci:
     type: str
